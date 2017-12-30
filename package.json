@@ -1,0 +1,33 @@
+{
+  "name": "resilient-eureka",
+  "description": "Resilient HTTP middleware for Eureka service discovery and balancing",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "thanhoro/resilient-eureka",
+  "author": "Timo Hanhirova",
+  "main": "eureka.js",
+  "keywords": [
+    "fault",
+    "tolerant",
+    "balance",
+    "ajax",
+    "http",
+    "https",
+    "xhr",
+    "request",
+    "client",
+    "agent",
+    "distributed",
+    "resilience",
+    "reactive",
+    "balancer",
+    "rest",
+    "fallback",
+    "eureka"
+  ],
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "devDependencies": {
+  }
+}
