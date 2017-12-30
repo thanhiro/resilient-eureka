@@ -10,11 +10,14 @@ Greatly inspired by [resilient-consul](https://github.com/h2non/resilient-consul
 
 ### Node.js
 
+Requires Node.js 8+.
+
 TODO
 
 ## Usage
 
 ```js
+// ES2016 modules with babel
 import Resilient from 'resilient';
 import eureka from './eureka';
 

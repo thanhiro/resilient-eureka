@@ -4,7 +4,7 @@
  * @param params
  * @return {middleware}
  */
-export default function eureka(params) {
+module.exports = function eureka(params) {
   // Middleware-specific params
   params = params || {};
 
