@@ -12,14 +12,16 @@ Greatly inspired by [resilient-consul](https://github.com/h2non/resilient-consul
 
 Requires Node.js 8+.
 
-TODO
+```
+npm install resilient-eureka-middleware --save
+```
 
 ## Usage
 
 ```js
 // ES2016 modules with babel
 import Resilient from 'resilient';
-import eureka from './eureka';
+import eureka from 'resilient-eureka-middleware';
 
 const client = Resilient({
   discovery: {
